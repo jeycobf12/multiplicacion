@@ -1,18 +1,13 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
-
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+/*blaxon*/
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+int i, n;
+printf (¨numero de tabla a generar?¨)
+scanf (¨%d¨,&n);
+freopen )¨tabla.txt¨,¨w¨,stdout);
+for(i=1;i<=n;i++)
+    printf (¨%2d x %2d = %3d¨,n,i,i,*n)
+     fclose (stdout);
+}
