@@ -8,6 +8,6 @@ printf (¨numero de tabla a generar?¨)
 scanf (¨%d¨,&n);
 freopen )¨tabla.txt¨,¨w¨,stdout);
 for(i=1;i<=n;i++)
-    printf (¨%2d x %2d = %3d¨,n,i,i,*n)
+    printf (¨%2d x %2d = %3d¨,n,i,i,*n);
      fclose (stdout);
 }
